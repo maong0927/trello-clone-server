@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask-cors = "==3.0.8"
+flask-restful = "==0.3.8"
+flask = "==1.0.3"
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.7"
